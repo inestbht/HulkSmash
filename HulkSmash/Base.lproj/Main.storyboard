@@ -19,28 +19,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="i4j-pb-oJJ">
-                                <rect key="frame" x="50" y="215" width="275" height="237.5"/>
+                                <rect key="frame" x="50" y="258" width="275" height="151"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POM-s6-dpt">
-                                        <rect key="frame" x="99" y="0.0" width="77" height="86"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="🤖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POM-s6-dpt">
+                                        <rect key="frame" x="99" y="0.0" width="77" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hulk Smash?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYb-X6-Hhy">
-                                        <rect key="frame" x="70.5" y="99" width="134" height="27.5"/>
+                                        <rect key="frame" x="70.5" y="13" width="134" height="27"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pI6-qI-6g1">
-                                        <rect key="frame" x="99" y="133" width="77" height="0.0"/>
+                                        <rect key="frame" x="99" y="46.5" width="77" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="aIH-NI-Du8">
-                                        <rect key="frame" x="0.0" y="139.5" width="275" height="98"/>
+                                        <rect key="frame" x="0.0" y="53" width="275" height="98"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiI-MJ-7Ia">
                                                 <rect key="frame" x="0.0" y="0.0" width="77" height="98"/>
@@ -74,22 +74,22 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9W-jv-Ucf">
-                                <rect key="frame" x="12" y="12" width="351" height="23.5"/>
+                                <rect key="frame" x="12" y="12" width="351" height="52"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLU-Ql-BnS">
-                                        <rect key="frame" x="0.0" y="0.0" width="150.5" height="23.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="150.5" height="52"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ties: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39G-mh-PqO">
-                                        <rect key="frame" x="150.5" y="0.0" width="50" height="23.5"/>
+                                        <rect key="frame" x="150.5" y="0.0" width="50" height="52"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Hulk: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usm-MC-ONF">
-                                        <rect key="frame" x="200.5" y="0.0" width="150.5" height="23.5"/>
+                                        <rect key="frame" x="200.5" y="0.0" width="150.5" height="52"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -110,14 +110,25 @@
                                     <action selector="resetScoreButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kau-hx-y1B"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hulk3" translatesAutoresizingMaskIntoConstraints="NO" id="hKR-f0-GnZ">
+                                <rect key="frame" x="149" y="164" width="77" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="TEB-0p-eJR"/>
+                                    <constraint firstAttribute="width" constant="77" id="gFz-gj-0Qs"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="HulkDarkGreen"/>
                         <constraints>
                             <constraint firstItem="i4j-pb-oJJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AV0-aa-CMT"/>
                             <constraint firstItem="i4j-pb-oJJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BBy-gx-5sY"/>
+                            <constraint firstItem="hKR-f0-GnZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BVQ-R4-srP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y9W-jv-Ucf" secondAttribute="trailing" constant="12" id="SA5-gY-buf"/>
+                            <constraint firstItem="hKR-f0-GnZ" firstAttribute="top" secondItem="Y9W-jv-Ucf" secondAttribute="bottom" constant="100" id="UEv-Vx-dez"/>
                             <constraint firstItem="Y9W-jv-Ucf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="Xu2-AR-NmF"/>
+                            <constraint firstItem="i4j-pb-oJJ" firstAttribute="top" secondItem="hKR-f0-GnZ" secondAttribute="bottom" constant="8" symbolic="YES" id="abR-Pg-mkg"/>
+                            <constraint firstItem="hKR-f0-GnZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="164" id="b2R-yh-YZD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qkO-uP-Gp0" secondAttribute="bottom" constant="12" id="dxK-nI-9Hh"/>
                             <constraint firstItem="Y9W-jv-Ucf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="qJT-o5-OVI"/>
                             <constraint firstItem="qkO-uP-Gp0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="utc-X5-JcN"/>
@@ -138,10 +149,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="139"/>
+            <point key="canvasLocation" x="138.40000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
     <resources>
+        <image name="hulk3" width="420" height="534.5"/>
         <namedColor name="HulkDarkGreen">
             <color red="0.27058823529411763" green="0.36470588235294116" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -99,7 +99,7 @@ class HulkSmashViewController: UIViewController {
             hulkScoreInt = hulkScoreInt + 1
             defaults.set(hulkScoreInt, forKey: InitialScores.initialHulkScore)
             updateScores()
-            return "Hulk Smash!"
+            return "You Lose, Hulk Smash!"
         } else {
             UIView.animate(withDuration: 0.6, animations: { () -> Void in
                 self.view.backgroundColor = #colorLiteral(red: 0.5452152491, green: 0.6792706847, blue: 0.347515136, alpha: 1)
